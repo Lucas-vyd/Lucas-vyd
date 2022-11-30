@@ -1,24 +1,20 @@
-import ITStudent from 'Lucas';
+    import ITStudent from 'Lucas';
+    
+    class Bio extends ITStudent {
+      name      = 'Lucas';
+      title     = 'IT Student at 3iL';
+      studying  = 'General programming';
+      location  = 'Limoges,FR','Thionville, FR';
+    }
+    
+    class Skills extends ITStudent {
+      languages  = ['Java', 'Python', 'C/C++', 'Scala', 'PHP'];
+      databases  = ['MySQL', 'Oracle'];
+    }
+     
+    class Links extends ITStudent {
+      // About me
+      LinkedIn   = 'https://www.linkedin.com/in/lucasveynand/'
+    }
 
-class Bio extends ITStudent {
-  name      = 'Lucas';
-  title     = 'IT Student at 3iL';
-  studying  = 'General programming';
-  location  = 'Limoges, FR','Thionville, FR';
-}
 
-class Skills extends ITStudent {
-  languages  = ['Python', 'Bash', 'Java', 'C/C++', 'Scala', 'TypeScript', 'PHP'];
-  databases  = ['MySQL', 'Oracle'];
-  misc       = ['Network', 'Unix', 'Software design / SCRUM'];
-}
-
-class Links extends ITStudent {
-  // Ethical Hacking
-  Rootme     = 'https://www.root-me.org/shinobi-406113';
-  HackTheBox = 'https://www.hackthebox.com/home/users/profile/234515'
-  TryHackMe  = 'https://tryhackme.com/p/shinobi';
-  
-  // About me
-  LinkedIn   = 'https://www.linkedin.com/in/yanis-taleb-7797971a0/'
-}
